@@ -22,9 +22,9 @@ This tool has not been tested on anything other than any simple .gjf in the form
 
 Using this tool, you are assumed to have your directory beginning with /home1/
 
-##################################################################################################
+```
 %chk=C:\Users\abc123\OneDrive - Hogwarts School of Magic\Documents\c-glyoxal.chk
-## opt freq hf/6-31g(d) geom=connectivity
+# opt freq hf/6-31g(d) geom=connectivity
 
 Title Card Required
 
@@ -44,7 +44,7 @@ Title Card Required
  6
 
 
-##################################################################################################
+```
 
 In which it removes the first line and replaces it with some key information, so then
 this line,
@@ -67,7 +67,7 @@ Which are changes youd find in a template.
 
 The .slurm file that is created is also from the template, it would look something like this,
 
-##################################################################################################
+```
 #!/bin/bash
 #----------------------------------------------------
 # SLURM job script for TACC Lonestar 6
@@ -94,6 +94,11 @@ mkdir -p /home1/USERID/USERNAME/gaussian
 # Set Gaussian scratch directory to match home1 location
 export GAUSS_SCRDIR=/home1/USERID/USERNAME/gaussian
 
+
 # Run Gaussian
 time g16 < /home1/USERID/USERNAME/gaussian/c-glyoxal.inp > /home1/USERID/USERNAME/gaussian/c-glyoxal.log
-##################################################################################################
+```
+
+Happy slurming!
+
+https://izotutor.wixsite.com/undefined
