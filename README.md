@@ -24,7 +24,7 @@ Using this tool, you are assumed to have your directory beginning with /home1/
 
 ##################################################################################################
 %chk=C:\Users\abc123\OneDrive - Hogwarts School of Magic\Documents\c-glyoxal.chk
-# opt freq hf/6-31g(d) geom=connectivity
+## opt freq hf/6-31g(d) geom=connectivity
 
 Title Card Required
 
