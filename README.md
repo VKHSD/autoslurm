@@ -49,19 +49,19 @@ Title Card Required
 In which it removes the first line and replaces it with some key information, so then
 this line,
 
-  """
-  %chk=C:\Users\abc123\OneDrive - Hogwarts School of Magic\Documents\c-glyoxal.chk
-  """
+```
+%chk=C:\Users\abc123\OneDrive - Hogwarts School of Magic\Documents\c-glyoxal.chk
+```
   
 is replaced with, for instance,
 
-  """
-  %nprocshared=12
-  %rwf=/home1/USERID/USERNAME/gaussian/c-glyoxal.rwf
-  %chk=/home1/USERID/USERNAME/gaussian/c-glyoxal.chk
-  %mem=56GB
-  %NProcs=12
-  """
+```
+%nprocshared=12
+%rwf=/home1/USERID/USERNAME/gaussian/c-glyoxal.rwf
+%chk=/home1/USERID/USERNAME/gaussian/c-glyoxal.chk
+%mem=56GB
+%NProcs=12
+```
   
 Which are changes youd find in a template.
 
